@@ -10,7 +10,7 @@ describe("Home", () => {
   };
 
   test("Home Test", async () => {
-    renderHome({
+    const { user } = renderHome({
       // ...
     });
   });
