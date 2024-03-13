@@ -1,7 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-export default function Home() {
+type Props = {
+  // ...
+};
+
+export default function Home({}: Props) {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
