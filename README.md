@@ -1,3 +1,4 @@
-https://www.prisma.io/docs/orm/overview/databases/supabase
+server 3001
+client 3000
 
-https://supabase.com/docs/guides/getting-started/quickstarts/nextjs
+client -> prisma -> dev.db
